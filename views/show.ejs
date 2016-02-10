@@ -1,0 +1,14 @@
+<h1>Details</h1>
+<ul><li>
+<%= BlogPost.Name %>
+<%= BlogPost.Description %>
+<%= BlogPost.Clink %>
+</li>
+
+<form action="/commentform" method="POST">
+	<input type="text" name="Cname" />
+	<textarea type="text" name="Ccomment"></textarea>
+	<input type="submit" value="ADD"/>
+</form>
+
+
